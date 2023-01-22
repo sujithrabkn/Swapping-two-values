@@ -34,6 +34,3 @@ print("After circulating the values are:",circulate())
 ![swapping.png](./images/swapping.png)
 ## RESULT:
 Thus the swapping of two values are successfully executed.
-
-
-
