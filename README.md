@@ -19,12 +19,16 @@ Print both the values it would be interchanged.
 End the program.
 ## PROGRAM:
 ```
-n1=int(input())
-n2=int(input())
-temp=n2
-n2=n1
-n1=temp
-print("Swapped values are:",n1,n2)
+#Program to circulate N values.
+#Developed by: Sujithra B K N
+#RegisterNumber:22008582
+a=eval(input())
+b=int(input())
+def circulate():
+    for n in range (b+1):
+        c=a[n:]+a[:n]
+    return c
+print("After circulating the values are:",circulate())
 ```
 ## OUTPUT:
 ![swapping.png](./images/swapping.png)
